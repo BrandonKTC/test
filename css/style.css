@@ -1,0 +1,132 @@
+/* Main color:  */
+/*
+---- COLORS
+
+- Primary: #F16F51 
+- Tints: #F8CDC5
+- Shades: #EE6F52
+- Accents:
+- Greys
+#555
+#333
+
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1;
+	font-weight: 400;
+	color: #fff;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+/******************************/
+/* GENRAL REUSABLE ELEMENT */
+/******************************/
+
+.orange {
+	display: inline-block;
+	color: #f16f51;
+}
+
+/******************************/
+/* GENRAL REUSABLE COMPONENTS */
+/******************************/
+
+.btn {
+	font-size: 2rem;
+	background-color: #000;
+	border: 1px solid #fff;
+	color: #fff;
+	cursor: pointer;
+	border-radius: 100px;
+	padding: 1.6rem 3.2rem;
+	cursor: pointer;
+	transition: all 0.3s ease-out;
+}
+
+.btn:hover {
+	background-color: #f16f51;
+}
+
+.heading-primary {
+	font-size: 5.1rem;
+	line-height: 1.1;
+	font-weight: bold;
+	margin-bottom: 4.8rem;
+	font-family: "DM Serif Display", serif;
+}
+/******************************/
+/* HEADER */
+/******************************/
+
+.header {
+	background-color: #000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 9.6rem;
+	padding: 0 4.8rem;
+}
+
+/******************************/
+/* NAVIGATION */
+/******************************/
+.main-nav-list {
+	list-style: none;
+	font-size: 1.8rem;
+	display: flex;
+	align-items: center;
+	gap: 3.2rem;
+}
+
+.nav-item:link,
+.nav-item:visited {
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.3s ease-out;
+}
+.nav-item:hover,
+.nav-item:active {
+	color: #f16f51;
+}
+/******************************/
+/* HERO */
+/******************************/
+.section-hero {
+	background-color: #000;
+	padding: 9.6rem 0;
+	height: 100vh;
+}
+
+.hero {
+	margin: 0 auto;
+	max-width: 130rem;
+	display: grid;
+	gap: 9.6rem;
+	grid-template-columns: 1fr 1fr;
+}
+
+.hero-img {
+	width: 100%;
+}
+
+.hero-description {
+	font-size: 1.6rem;
+	line-height: 1.6;
+	font-family: "Poppins", sans-serif;
+	margin-bottom: 4.8rem;
+}
+
+/******************************/
+/* SECTION */
+/******************************/
