@@ -418,6 +418,10 @@ footer {
 	position: relative;
 }
 
+.footer-right .heading-secondary {
+	letter-spacing: 1.5px;
+}
+
 .footer-right p {
 	font-size: 1.4rem;
 	font-weight: lighter;

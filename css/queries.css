@@ -1,0 +1,44 @@
+/*****************************/
+/* BELOW 1344px (Smaller desktops) */
+/*****************************/
+@media (max-width: 84em) {
+	.section-activity .grid {
+		display: flex;
+		flex-direction: column;
+		gap: 18rem;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+/*****************************/
+/* BELOW 1202px (Landscape Tablets desktops) */
+/*****************************/
+
+@media (max-width: 75em) {
+	html {
+		font-size: 56.25%;
+	}
+}
+
+/*****************************/
+/* BELOW 940px ( Mobile ) */
+/*****************************/
+
+@media (max-width: 59em) {
+	html {
+		font-size: 50%;
+	}
+	.section-hero {
+		height: max-content;
+	}
+}
+/*****************************/
+/* BELOW 700px ( Mobile ) */
+/*****************************/
+
+@media (max-width: 59em) {
+	html {
+		font-size: 42%;
+	}
+}
