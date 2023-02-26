@@ -47,7 +47,7 @@ section
                     h3
                         comptabilité
                     p
-                       Vous avez du mal à jongler avec les chiffres, entre les dépenses et les recettes de votre entreprise ? C’est notre rôle de vous accompagner dans cette tâche, pas toujours évidente…. 
+                       Vous avez du mal à jongler avec les chiffres, entre les dépenses et les recettes de votre entreprise ? C’est notre rôle de vous accompagner dans cette tâche, pas toujours évidente… 
                 img H:203px
                     img W:385px
             div
