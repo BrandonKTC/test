@@ -110,7 +110,7 @@
 	.cta {
 		display: flex;
 		flex-direction: column;
-		max-width: max-content;
+		max-width: 60rem;
 	}
 
 	.cta-logo {
