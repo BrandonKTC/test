@@ -41,6 +41,11 @@
 	html {
 		font-size: 42%;
 	}
+	.img {
+		width: 75%;
+		align-self: center;
+		justify-self: center;
+	}
 	.hero {
 		display: flex;
 		flex-direction: column;
