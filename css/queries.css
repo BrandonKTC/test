@@ -34,11 +34,56 @@
 	}
 }
 /*****************************/
-/* BELOW 700px ( Mobile ) */
+/* BELOW 700px ( Phone ) */
 /*****************************/
 
 @media (max-width: 59em) {
 	html {
 		font-size: 42%;
+	}
+	.hero {
+		display: flex;
+		flex-direction: column;
+	}
+	.section-how {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.cta {
+		display: flex;
+		flex-direction: column;
+		max-width: max-content;
+	}
+
+	.cta-logo {
+		position: relative;
+	}
+
+	footer .container {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.contact {
+		padding-bottom: 0;
+	}
+
+	.footer-right {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.footer-right img {
+		display: none;
+	}
+
+	.footer-right button {
+		margin-bottom: 3rem;
+	}
+
+	.copyright {
+		display: grid;
 	}
 }
